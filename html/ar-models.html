@@ -23,6 +23,13 @@
     <link rel="stylesheet" type="text/css" href="../static/style.css" />
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+        model-viewer{
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+    </style>
 
     <link rel="shortcut icon" href="../img/icon.png" >
 
@@ -81,6 +88,21 @@
             <div class="col-sm-9">
 
                 <model-viewer id="dimension-demo3" src="https://mtezzele.github.io/glb/carotid.glb" ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" shadow-intensity="1" camera-controls touch-action="pan-y">
+
+                </br>                  
+            </div>
+        </div>
+
+        <hr/>
+
+
+        <div class="row">
+            <div class="col-sm-3">
+                <h5>2018</h5>
+            </div>
+            <div class="col-sm-9">
+
+                <model-viewer id="dimension-demo3" src="https://mtezzele.github.io/glb/carotid_blue.glb" ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" shadow-intensity="1" camera-controls touch-action="pan-y">
 
                 </br>                  
             </div>
